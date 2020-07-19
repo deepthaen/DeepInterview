@@ -1,0 +1,30 @@
+Strings
+StringBuffer
+Super
+this
+Static methods
+Non static
+Class
+Object
+Construtor
+default construtor
+Parametrized constructor
+
+
+oops ----
+Interface
+Abstract class
+
+inheritance -- extends,Implemts
+Abstraction -- declaration and function implementation
+Encapsaulation -- Setters and getters
+polymorpyshm -- Over loading and over riding
+
+
+Arraylist 
+List
+Hashamp
+map
+
+Single tone
+Exceptions

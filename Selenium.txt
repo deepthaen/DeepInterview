@@ -1,0 +1,19 @@
+Selenium webdriver
+webdriver
+get -naviagte
+max,minimize
+find element,elements
+Locators -- Id,Classname,Xpatrh,name,Linktext,Tagname
+Sleep methods -- wait,thread.sleep,implicit,explicit,fluent
+Actions
+select-- different methods in select
+handling java script -- wr u used
+scrrolling
+alerts
+frames
+switching windows
+
+
+
+
+framework
