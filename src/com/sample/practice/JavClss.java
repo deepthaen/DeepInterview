@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class JavClss {
 	
-	public static void main(String[] args) {
+	public static  void main(String[] args) {
 		System.out.println("java class");
 		System.out.println("enter data");
 		Scanner sc = new Scanner (System.in);

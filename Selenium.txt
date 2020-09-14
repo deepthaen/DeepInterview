@@ -1,17 +1,47 @@
 Selenium webdriver
 webdriver
-get -naviagte
-max,minimize
-find element,elements
-Locators -- Id,Classname,Xpatrh,name,Linktext,Tagname
+
+get -naviagte  -- get(url), getText, getTitle(),getAttrubute(), getwindowshandle() getWindowsHandles(), 
+getCurrentUrl - wait untill page load===  Navigate to - navigate.forword(),navigate.back(),navigate.refresh()- 
+it will not wait untill complete page load
+ 
+max,minimize - driver.manage().window().maximize()
+minize - driver.manae().window().setposition(new, point(300, 200))
+
+
+find element,elements   - findelement used to find unique element, findelements (driver.findelement(by.xpath))
+findelemets - used with list of element - if no matching found with elemnt gives empty response
+(list<webElement> lstt = new driver.findElements(By.xpath))
+
+
+Locators -- Id,Classname,Xpath,name,Linktext,Tagname, partial link text,css
+
 Sleep methods -- wait,thread.sleep,implicit,explicit,fluent
-Actions
+
+thread sleep - normal wait statment thread.sleep(100), Implicit - will for complete time which is specfied 
+driver.manage.timeout.implici(10, timeout)
+explict - it will untill it met condition or spicfic time to complete - 
+webdriverwait wt = new webdriverwait(driver, 10)
+wait.until(expectedcondition.(elemntToClickable(xpath));
+Flunent wait - it defines max time webdriver has to wait until contidition appear, defines at wt frequency
+speficied condition need to check before thrwoing exception
+wait wat = new flunetwait(webdriver driver)
+.withTimeout(40 TimeSec).pollingEvery(10 Time).ignore(exception.class
+
+Actions   = 
 select-- different methods in select
 handling java script -- wr u used
 scrrolling
 alerts
 frames
 switching windows
+screenshots
+
+log4j
+testng
+extent repots
+file reading
+config 
 
 
 

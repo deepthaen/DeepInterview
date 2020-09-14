@@ -14,6 +14,9 @@ public class C_allMethods {
 	 * Find element
 	 * elements
 	 * wait
+	 * switch browser
+	 * actions
+	 * select
 	 * 
 	 */
 	
@@ -34,6 +37,7 @@ public class C_allMethods {
 	
 	public void maximise() {
 		driver.manage().window().maximize();	
+		
 	}
 	
 	public void getUrl() {

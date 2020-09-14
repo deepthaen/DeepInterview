@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sele.B_SampleBefore">
+      <class name="com.sele.ExcutionNNNow">
         <methods>
-          <include name="m"/>
-          <include name="test"/>
+          <include name="orderPlace"/>
         </methods>
-      </class> <!-- com.sele.B_SampleBefore -->
+      </class> <!-- com.sele.ExcutionNNNow -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

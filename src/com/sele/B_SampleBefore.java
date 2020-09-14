@@ -6,17 +6,20 @@ import org.testng.annotations.Test;
 
 public class B_SampleBefore {
 	
+	WebDriver driver ;
 	A_LaunchBrowser launch;
 	@BeforeMethod
 	public void m() {
 		 launch = new A_LaunchBrowser();
-		
+		 driver = launch.getInstance();
 		
 	}
 	
 	@Test
 	public void test() {
-		launch.getInstance().get("http://www.google.com");
+		driver.get("http://www.google.com");
+		Loginpage l= new Loginpage(driver);
+		l.clickonUserName();
 	}
 
 }
